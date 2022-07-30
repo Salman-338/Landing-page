@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* header start */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #DAAC00;
+    padding: 10px 10px;
+}
+
+.newul ul{
+    display: flex;
+    list-style: none;
+}
+.newul ul li {
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+input{
+    background-color: #FCC302;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+input::placeholder{
+    color: white;
+}
+.btn1{
+    padding: 3px 6px;
+    border: none;
+    margin: -5px;
+    color: white;
+    background: #00BEC9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/* header end */
+/* section start */
+.backstyle{
+    background: #FCC302;
+    color: white;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.detail h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.detail p{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.imge {
+    width: 500px;
+    height: 600px;
+}
+
+.btn2{
+    padding: 10px 15px;
+    border: 2px #00BEC9 solid ;
+    margin: 2px;
+    color: white;
+    background: #00BEC9;
+    border-radius:2px;
+}
+.btn3{
+    padding: 10px 15px;
+    border: 2px white solid;
+    margin: 4px;
+    color: white;
+    border-radius: 2px;
+    background: #FCC302;
+}
+/* sectin end */
+/* promation start */
+.promo1{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    margin:100px 250px;
+}
+
+.promo1 h1{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.main1{
+    margin-right: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.main1 p{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.btn4{
+    padding: 8px 12px;
+    border: 2px white solid;
+    margin: -10px;
+    color: white;
+    border-radius: 6px;
+    background: #FCC302;
+}
+
+
+.imge2{
+    width: 430px;
+    height: 400px;
+    border-radius: 8px;
+}
+/* promation end */
+/* consalte start */
+.main2 {
+    background: #FCC302;
+    margin-top: 100px;
+    padding: 80px;
+    
+}
+.tit1 {
+ margin-bottom: 20px;
+text-align: center;
+color: white;
+}
+.tit1 h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.tit1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ser1{
+    margin-top: 10px;
+    justify-content: space-evenly;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.ser1 h4{
+    font-size: 30px;
+}
+.tit2{
+    display: flex;justify-content: space-evenly;
+}
+/* consalte end */
+/* service2 start */
+.serv2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin:100px 250px;
+}
+.serimg{
+    margin-right: 60px;
+    width: 300px;
+    margin-left: 30px ;
+}
+.serde h1{
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.serde p {
+    text-align: right;
+    font-size: 18px;
+    width: 600px;
+    letter-spacing: 0.59px;
+    margin-bottom: 20px;
+}
+.btn5{
+    padding: 8px 12px;
+    border: 2px white solid;
+    margin: -10px;
+    color: white;
+    border-radius: 6px;
+    background: #FCC302;
+    float: right;
+}
+/* service2 end */
+/* dog detail start */
+.dog123 {
+    background: #FCC302;
+    padding: 100px 100px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.tit3 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tit3 p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.dogsel {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dog1 img{
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.dog1 h4 {
+    font-size: 30px;
+    text-align: center;
+}
+.dog1 button{
+    display: flex;
+    margin-left: 62px;
+    border-radius: 50px;
+    padding: 5px 15px ;
+    background: #00BEC9;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+/* dog detail end */
+/* doctor detail start */
+.doctordet {
+    padding: 100px 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.doctordet1 h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.doctordet1 p{
+    word-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.docimg {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.doctorname h4{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.doctorname p {
+    text-align: center;
+    margin: 5px 0px;
+}
+.doctoricon {
+    margin-left: 100px;
+    word-spacing: 10px;
+}
+/* doctor detail end */
+/* promation start */
+.proback {
+    background: #DAAC00;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 100px;
+    align-items: center;
+    color: white;
+}
+.fa-heart-pulse {
+    font-size: 150px;
+    text-align: center;
+}
+.fa-stethoscope{
+    font-size: 150px;
+    text-align: center;
+}
+.fa-syringe {
+    font-size: 150px;
+    text-align: center;
+}
+.bac1  {
+    text-align: center;
+    margin: 5px 0px;
+}
+/* promation end */
+/* recnt start */
+.mainrec {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px ;
+}
+.title12 {
+    text-align: center;
+    padding: 20px;
+}
+.title12 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.title12 p{
+    word-spacing: 2px;
+    margin-bottom: 45px;
+}
+.back3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.servrec {
+    width: 300px;
+    height: 300px;
+}
+.servrec img{
+    width: 300px;
+    height: 300px;
+    
+}
+.rectit1 {
+    margin-bottom: -100px;
+}
+.rectit1 h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;   
+}
+.rectit1 span {
+    text-align: left;
+    color: #00BEC9;
+}
+.rectit1 p{
+    text-align: left;
+    margin: 20px 0px;
+}
+.rectit1  a {
+    color: #00BEC9;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+/* recnt end */
+/* footer start */
+.mainf {
+    background: #343434;
+    color: white;
+    margin-block-start: 100vh;
+    padding: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.foot2 {
+    padding: 20px;
+}
+.foot2 h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.foot2 ul{
+    list-style: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+.foot3 {
+    text-align: right;
+    padding: 25px 25px;
+}
+.foot3 h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.foot3 p{
+    font-size: 8px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+.foot3 input{
+    width: 250px;
+    height: 40px;
+    border: none;
+}
+
+.btn6{
+    width:40px;
+    height: 40px;
+    margin-left: -5px;
+    border: none;
+    padding: 0%;
+    background: #00BEC9;
+    color: white;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: -50px;
+    word-spacing: 10px;
+}
+.icon2 .fa-instagram {
+    border-radius: 50px;
+    background-color: white;
+    color: #343434;
+    padding: 10px;
+}
+.icon2 .fa-facebook {
+    border-radius: 50px;
+    background-color: white;
+    color: #343434;
+    padding: 10px;
+}
+.icon2  .fa-twitter {
+    border-radius: 50px;
+    background-color: white;
+    color: #343434;
+    padding: 10px;
+}
+.icon2 .fa-whatsapp {
+    border-radius: 50px;
+    background-color: white;
+    color: #343434;
+    padding: 10px;
+}
+/* footer end */
